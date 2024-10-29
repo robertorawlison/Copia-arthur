@@ -59,7 +59,7 @@ def load_data(diretorio_csv):
                 }
                 
                 # Carregar cada arquivo CSV em um DataFrame e adicionar à lista
-                df = pd.read_csv(caminho_completo, dtype=dtypes)
+                df = pd.read_csv(caminho_completo, low_memory=False)
                 dataframes.append(df)
             except Exception as e:
                 st.error(f'Erro ao ler o arquivo {arquivo}: {e}')

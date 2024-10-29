@@ -1,0 +1,5 @@
+## Projeto Baixo Peso ao Nascer (BPN)
+
+**instruções para rodar o código:**
+
+- Certifique-se de que a pasta "Dados_cv" esteja devidamente baixada no local que irá rodar o seu código, pois dela será puxada os dados do SINASC convertidos em CSV.

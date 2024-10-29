@@ -1,0 +1,9 @@
+/tratados/
+/não tratados/
+*.rar
+*.zip
+*.dbf
+/Ignorar/
+*.DBC
+*.dbc
+Dados.ipynb
